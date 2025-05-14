@@ -32,7 +32,7 @@ interface PublicationCardProps {
 const PublicationCard = ({ 
   publication,
   title, 
-  description, 
+  description,
   date, 
   categories = [], 
   pdfUrl, 
@@ -58,19 +58,26 @@ const PublicationCard = ({
     >
       <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300 ease-in-out overflow-hidden group">
         {currentImageUrl && (
-          <motion.div 
-            className="block w-full h-48 overflow-hidden"
+          <motion.div
+            className="block w-full h-48 overflow-hidden relative" // Added relative positioning
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            <img 
-              src={currentImageUrl} 
-              alt={currentTitle} 
+            <img
+              src={currentImageUrl}
+              alt={currentTitle}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
+            {/* Title Overlay */}
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center transition-opacity duration-300">
+              <h3 className="text-white text-lg font-semibold text-center px-4 line-clamp-2">
+                {currentTitle}
+              </h3>
+            </div>
           </motion.div>
         )}
-        <CardHeader className="pb-3">
+        {/* CardTitle was moved from here */}
+        <CardHeader className="pb-3 pt-0"> {/* Adjust padding */}
           {currentDate && (
             <motion.div 
               className="flex items-center text-xs text-gray-500 mb-1.5"
@@ -81,9 +88,6 @@ const PublicationCard = ({
               <time dateTime={currentDate}>{currentDate}</time>
             </motion.div>
           )}
-          <CardTitle className="text-lg font-semibold line-clamp-2 leading-tight">
-            {currentTitle}
-          </CardTitle>
         </CardHeader>
         <CardContent className="pb-3 flex-grow">
           <p className="text-gray-700 text-sm line-clamp-3 leading-relaxed">{currentDescription}</p>
@@ -108,21 +112,21 @@ const PublicationCard = ({
             whileHover={{ scale: 1.05 }}
             transition={{ type: 'spring', stiffness: 500 }}
           >
-            <Button 
+            <Button
               asChild
-              variant="link" 
+              variant="link"
               className="p-0 h-auto text-sm text-awrad-blue hover:text-awrad-darkblue"
             >
               {currentPdfUrl ? (
                 <a href={currentPdfUrl} target="_blank" rel="noopener noreferrer">
                   Download PDF <Download size={14} className="ml-1" />
                 </a>
-              ) : currentLink ? ( // Use link from publication if no pdfUrl
+              ) : currentLink ? (
                 <Link to={currentLink}>
                   Read More
                 </Link>
               ) : (
-                <span>Read More</span> // Fallback if no pdfUrl or link
+                <span>Read More</span>
               )}
             </Button>
           </motion.div>

@@ -8,16 +8,12 @@ import { Search } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 interface Publication {
-  id: string;
-  title_en: string;
-  title_ar: string;
-  category_en: string;
-  category_ar: string;
+  id?: string; // id might be missing in some objects based on the JSON
+  title: string;
   date: string;
-  link: string;
-  summary_en: string;
-  summary_ar: string;
+  pdf_url?: string;
   image_url: string;
+  // Removed language-specific and summary/category properties as they are not in the JSON
 }
 
 const Publications = () => {
@@ -65,28 +61,24 @@ const [filteredPublications, setFilteredPublications] = useState<Publication[]>(
     { id: "public health", labelKey: "publications.filter.public_health" },
   ];
 
-  // Filter and sort publications based on search and category
+  // Filter publications based on search query
   useEffect(() => {
     const filterPublications = () => {
       const results = publications.filter(pub => {
-        const title = (language === 'ar' ? pub?.title_ar : pub?.title_en) || '';
-        const summary = (language === 'ar' ? pub?.summary_ar : pub?.summary_en) || '';
-        const category = (language === 'ar' ? pub?.category_ar : pub?.category_en) || '';
+        // Use the correct title property from the JSON data
+        const title = pub?.title || '';
 
-        const matchesSearch = title?.toLowerCase()?.includes(searchQuery.toLowerCase()) || 
-                              summary?.toLowerCase()?.includes(searchQuery.toLowerCase());
+        // Filter based on search query matching the title
+        const matchesSearch = title?.toLowerCase()?.includes(searchQuery.toLowerCase());
         
-        const categoryId = category?.toLowerCase()?.replace(/\s+/g, '-') || '';
-        const matchesCategory = activeFilter === "all" || 
-                                categoryId.includes(activeFilter.toLowerCase());
-        
-        return matchesSearch && matchesCategory;
+        // Since category data is not available in the JSON, only filter by search query
+        return matchesSearch;
       });
       setFilteredPublications(results);
     };
 
     filterPublications();
-  }, [publications, searchQuery, activeFilter, language]);
+  }, [publications, searchQuery]); // Removed activeFilter and language from dependencies as they are no longer used in filtering
 
 
   if (loading) {
@@ -162,15 +154,14 @@ const [filteredPublications, setFilteredPublications] = useState<Publication[]>(
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredPublications.map((pub) => (
+                {filteredPublications.map((pub, index) => ( // Added index for key if id is missing
                   <PublicationCard
-                    key={pub.id}
-                    title={language === 'ar' ? pub.title_ar : pub.title_en}
-                    description={language === 'ar' ? pub.summary_ar : pub.summary_en}
+                    key={pub.id || index} // Use id if available, otherwise index
+                    title={pub.title} // Use the correct title property
                     date={pub.date}
-                    categories={[language === 'ar' ? pub.category_ar : pub.category_en].filter(Boolean)}
-                    pdfUrl={pub.link} // Pass the PDF download link
+                    pdfUrl={pub.pdf_url} // Pass the PDF download link
                     imageUrl={pub.image_url}
+                    // Description and categories are not in the provided JSON, so they are omitted
                   />
                 ))}
               </div>
