@@ -1,0 +1,26 @@
+{
+  "featuredPublication": {
+    "title": "The Day After Series Report #2: Displacement and Return Indicators, Living Conditions, and Assessment of Humanitarian Relief Efforts",
+    "category": "Research",
+    "date": "May 2024",
+    "link": "/publications/displacement-return-indicators",
+    "subtitle_key": "hero.subtitle_featured_report_2"
+  },
+  "trendingPublications": [
+    {
+      "id": 1,
+      "title": "The Day After Series Report #3: Gaza: Post-War Governance and Administration",
+      "link": "/publications/gaza-post-war"
+    },
+    {
+      "id": 2,
+      "title": "The Day After Series Report #1: The Ceasefire and the Half-Full Glass",
+      "link": "/publications/ceasefire-report"
+    },
+    {
+      "id": 3,
+      "title": "Palestinian Public Opinion Poll: Gaza, Government Performance, Living Conditions, Public Trust, and Expectations for the Future",
+      "link": "/public-opinion-polls/gaza-government-performance"
+    }
+  ]
+}

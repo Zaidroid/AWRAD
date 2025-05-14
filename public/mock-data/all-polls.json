@@ -1,0 +1,28 @@
+{
+  "polls": [
+    {
+      "id": "results-of-an-opinion-poll-among-palestinians-in-the-west-bank-and-gaza-strip-may-2024",
+      "title_en": "Results of an Opinion Poll among Palestinians in the West Bank and Gaza Strip - May 2024",
+      "title_ar": "",
+      "category_en": "Public Opinion Poll",
+      "category_ar": "استطلاع رأي",
+      "date": "June 13, 2024",
+      "link": "https://www.awrad.org//files/server/polls/Poll%202024/AWRAD%20-%20Press%20Release%20-%20Palestinian%20Public%20Opinion%20Poll%20-%20May%202024.pdf",
+      "summary_en": "The latest national survey conducted by AWRAD shows majority support among Palestinians for negotiations leading to an independent state, with a notable shift in support for a two-state solution, particularly in Gaza. The poll reveals a decline in support for Hamas and the Palestinian Authority, with a strong preference for a Palestinian-led government and UN oversight in Gaza.",
+      "summary_ar": "",
+      "image_url": "https://www.awrad.org//files/server/polls/Poll%202024/images/6c536a4d6ebb6e2b542f990640d553e1bd2bf433b898712378160f4756ef6d50.jpg"
+    },
+    {
+      "id": "wartime-poll-results-of-an-opinion-poll-among-palestinians-nov-2023",
+      "title_en": "Wartime Poll: Results of an Opinion Poll Among Palestinians - November 2023",
+      "title_ar": "",
+      "category_en": "Public Opinion Poll",
+      "category_ar": "استطلاع رأي",
+      "date": "November 7, 2023",
+      "link": "https://www.awrad.org/files/server/2-20231115123229.pdf",
+      "summary_en": "AWRAD conducted a survey among 668 Palestinians in the West Bank and Gaza Strip from October 31 to November 7, 2023, during the ongoing Gaza War. The poll revealed significant concerns among residents, including displacement, lack of safe spaces, and overwhelming support for a ceasefire. Key findings included that 100% of respondents in Gaza reported no safe space, 90% supported an immediate ceasefire, and 98% stated they would never forget the actions taken during the war.",
+      "summary_ar": "",
+      "image_url": "https://www.awrad.org/files/server/images/3ebf4ef7b550a0f54c8d0bf004225b5b177b1d86c3d06d4b1d54043aac77bf1a.jpg"
+    }
+  ]
+}

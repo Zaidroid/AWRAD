@@ -1,0 +1,109 @@
+{
+  "partners": [
+    {
+      "name": "Intermedia",
+      "logo": "https://www.awrad.org/files/image/logo%20intermedia.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.sakakini.org/"
+    },
+    {
+      "name": "UNIFEM",
+      "logo": "https://www.awrad.org/files/image/logo%20unifem.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.dpkconsulting.com/core/_media/"
+    },
+    {
+      "name": "ESCWA",
+      "logo": "https://www.awrad.org/files/image/logo%20escwa.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.undp.org.sa/"
+    },
+    {
+      "name": "UNICEF",
+      "logo": "/UNICEF Logo.png",
+      "url": "https://www.awrad.org/en/article/10467/www.worldbank.org/"
+    },
+    {
+      "name": "European Commission",
+      "logo": "https://www.awrad.org/files/image/logo%20european%20commission.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.iri.org/"
+    },
+    {
+      "name": "UKAID",
+      "logo": "/ukaid.png",
+      "url": "https://www.awrad.org/en/article/10467/www.kri-inter.co.uk/english/index.html"
+    },
+    {
+      "name": "GOPA",
+      "logo": "/gopa.png",
+      "url": "https://www.awrad.org/en/article/10467/www.jica.go.jp/english/"
+    },
+    {
+      "name": "Eurpol",
+      "logo": "https://www.awrad.org/files/image/logo%20eurpol.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.kri-inter.co.uk/english/index.html"
+    },
+    {
+      "name": "Devtech",
+      "logo": "https://www.awrad.org/files/image/logo%20devtech.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.dpkconsulting.com/core/_media/"
+    },
+    {
+      "name": "Sida",
+      "logo": "https://www.awrad.org/files/image/logo%20sida.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.jica.go.jp/english/"
+    },
+    {
+      "name": "GIZ",
+      "logo": "/giz.png",
+      "url": "https://www.awrad.org/en/article/10467/www.jica.go.jp/english/"
+    },
+    {
+      "name": "Human Dynamics",
+      "logo": "/humandynamics.jpeg",
+      "url": "https://www.awrad.org/en/article/10467/www.mepi.state.gov/"
+    },
+    {
+      "name": "GPC",
+      "logo": "https://www.awrad.org/files/image/logo%20gpc.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.sakakini.org/"
+    },
+    {
+      "name": "PCC",
+      "logo": "https://www.awrad.org/files/image/logo%20pcc.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.dpkconsulting.com/core/_media/"
+    },
+    {
+      "name": "Women Union",
+      "logo": "https://www.awrad.org/files/image/logo%20women%20union.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.undp.org.sa/"
+    },
+    {
+      "name": "PGFTU",
+      "logo": "https://www.awrad.org/files/image/logo%20pgftu.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.worldbank.org/"
+    },
+    {
+      "name": "MIFATAH",
+      "logo": "https://www.awrad.org/files/image/logo%20mifatah.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.kri-inter.co.uk/english/index.html"
+    },
+    {
+      "name": "Nissa",
+      "logo": "https://www.awrad.org/files/image/logo%20nissa.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.jica.go.jp/english/"
+    },
+    {
+      "name": "WATTAN",
+      "logo": "/wattan.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.kri-inter.co.uk/english/index.html"
+    },
+    {
+      "name": "Maannews",
+      "logo": "/maan.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.dpkconsulting.com/core/_media/"
+    },
+    {
+      "name": "Arab Women Leaders",
+      "logo": "https://www.awrad.org/files/image/logo%20arab%20women%20leaders.jpg",
+      "url": "https://www.awrad.org/en/article/10467/www.jica.go.jp/english/"
+    }
+  ]
+}

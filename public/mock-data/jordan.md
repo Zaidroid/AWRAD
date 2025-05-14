@@ -1,0 +1,5 @@
+Jordan
+
+ Refugee Research Project.” (Palestine, Lebanon and Jordan). The US-Middle East Partnership Initiative (MEPI), Williams & Associates. 2008.
+
+To fulfil this project AWRAD has completed field research in Palestine, Lebanon and Jordan to assess the living conditions and needs of Palestinian refugees in these 3 states. The project’s data collection strategy was defined by survey research, in-depth interviews and focus groups. Over 3,000 refugees, inside and outside of refugee camps were interviewed in the three states. The central themes addressed throughout the assessment were living conditions, human relations, and political recommendations to address, and ideally resolve, outstanding issues. At the conclusion of the project, AWRAD issued a series of conclusions designed to guide the programming and focus of stakeholders.

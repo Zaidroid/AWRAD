@@ -1,0 +1,126 @@
+{
+  "logos": [
+    {
+      "name": "Intermedia",
+      "url": "https://www.awrad.org/files/image/logo%20intermedia.jpg",
+      "status": "working",
+      "last_checked": "2025-05-14T11:00:00+03:00"
+    },
+    {
+      "name": "UNIFEM",
+      "url": "https://www.awrad.org/files/image/logo%20unifem.jpg",
+      "status": "working",
+      "last_checked": "2025-05-14T11:00:00+03:00"
+    },
+    {
+      "name": "ESCWA",
+      "url": "https://www.awrad.org/files/image/logo%20escwa.jpg",
+      "status": "working",
+      "last_checked": "2025-05-14T11:00:00+03:00"
+    },
+    {
+      "name": "UNICEF",
+      "url": "https://www.awrad.org/files/image/logo%20unicef.jpg",
+      "status": "working",
+      "last_checked": "2025-05-14T11:00:00+03:00"
+    },
+    {
+      "name": "European Commission",
+      "url": "https://www.awrad.org/files/image/logo%20european%20commission.jpg",
+      "status": "working",
+      "last_checked": "2025-05-14T11:00:00+03:00"
+    },
+    {
+      "name": "UKAID",
+      "url": "https://www.awrad.org/files/image/logo%20ukaid.jpg",
+      "status": "failed",
+      "last_checked": "2025-05-14T11:00:00+03:00",
+      "error": "Request timed out (408)"
+    },
+    {
+      "name": "UNDP",
+      "url": "https://www.awrad.org/files/image/logo%20undp.jpg",
+      "status": "working",
+      "last_checked": "2025-05-14T11:03:53+03:00",
+      "screenshot": "https://service.firecrawl.dev/storage/v1/object/public/media/screenshot-7df3a084-8c21-444d-a1f5-b9bbaa44f8d4.png"
+    },
+    {
+      "name": "World Bank",
+      "url": "https://www.awrad.org/files/image/logo%20world%20bank.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "SIDA",
+      "url": "https://www.awrad.org/files/image/logo%20sida.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "Carter Center",
+      "url": "https://www.awrad.org/files/image/logo%20carter%20center.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI",
+      "url": "https://www.awrad.org/files/image/logo%20iri.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "NSI",
+      "url": "https://www.awrad.org/files/image/logo%20nsi.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Jordan",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20jordan.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Palestine",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20palestine.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Yemen",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20yemen.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Lebanon",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20lebanon.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Iraq",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20iraq.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Libya",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20libya.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Tunisia",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20tunisia.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Morocco",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20morocco.jpg",
+      "status": "unverified"
+    },
+    {
+      "name": "IRI Algeria",
+      "url": "https://www.awrad.org/files/image/logo%20iri%20algeria.jpg",
+      "status": "unverified"
+    }
+  ],
+  "summary": {
+    "total": 21,
+    "working": 6,
+    "failed": 1,
+    "unverified": 14,
+    "success_rate": "85.7% (of verified)"
+  },
+  "last_updated": "2025-05-14T11:04:24+03:00"
+}
