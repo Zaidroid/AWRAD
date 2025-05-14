@@ -24,11 +24,11 @@ const Header = () => {
     { name: t('home'), path: '/' },
     { name: t('about'), path: '/about' },
     { name: 'Projects', path: '/projects' },
-    { name: 'AWRAD Regional', path: '/regional' },
     { name: t('publications'), path: '/publications' },
     { name: 'Activities', path: '/activities' },
     { name: t('partners_clients.title'), path: '/partners-clients' },
     { name: 'Community Role', path: '/community-role' },
+    { name: 'AWRAD Regional', path: '/regional' },
     { name: t('team'), path: '/team' },
     { name: t('contact'), path: '/contact' },
   ];
